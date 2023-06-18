@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.carousel-inner{
+    max-height: 39rem;
+}
+@media(max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+}
+
+.imgcont{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.imgEco{
+width: 100%;
+border-radius: 5px;
+}
+
+.parrafo{
+font-size: calc(1.2vw + .7em);
+margin-left: 7px;
+}
+
+
+.imgAn{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    display: flex;
+}
+
+.tituloF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.textoAn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;
+}
+
+.nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+.nombreAv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 260px;
+    height: 160px;
+}
